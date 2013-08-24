@@ -1,0 +1,42 @@
+// Contacts.odl : type library source for Contacts.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Contacts.tlb).
+
+[ uuid(D3F054C9-0237-432B-91FF-BC816B103306), version(1.0) ]
+library Contacts
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CContactsDoc
+	
+	[ uuid(064CFB5F-DA32-4F24-86A3-9048E8C382DB) ]
+	dispinterface IContacts
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CContactsDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CContactsDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CContactsDoc
+	
+	[ uuid(DCD9A98B-43BC-4522-BE15-2DCF86106043) ]
+	coclass Contacts
+	{
+		[default] dispinterface IContacts;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

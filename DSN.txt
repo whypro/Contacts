@@ -1,0 +1,5 @@
+DSN: whypro_Database
+Sever: (local)
+UID: whypro
+PWD: whypro
+Default DB: Contacts

@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Contacts - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Contacts.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents\我的文档\Microsoft Visual Studio 6.0\MyProjects\数据库\Contacts\InsertDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Contacts.pdb" /debug /machine:I386 /out:"Debug/Contacts.exe" /pdbtype:sept /libpath:"cxcore200.lib cv200.lib highgui200.lib" 
+".\Debug\CitySet.obj"
+".\Debug\Contacts.obj"
+".\Debug\ContactsDlg.obj"
+".\Debug\ContactsSet.obj"
+".\Debug\GroupDlg.obj"
+".\Debug\GroupSet.obj"
+".\Debug\InsertDlg.obj"
+".\Debug\LoginDlg.obj"
+".\Debug\PhotoSet.obj"
+".\Debug\ProvinceSet.obj"
+".\Debug\QueryDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\UserSet.obj"
+".\Debug\Contacts.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11D.tmp"
+<h3>Output Window</h3>
+Compiling...
+InsertDlg.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11E.tmp" with contents
+[
+/nologo /o"Debug/Contacts.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\CitySet.sbr"
+".\Debug\Contacts.sbr"
+".\Debug\ContactsDlg.sbr"
+".\Debug\ContactsSet.sbr"
+".\Debug\GroupDlg.sbr"
+".\Debug\GroupSet.sbr"
+".\Debug\InsertDlg.sbr"
+".\Debug\LoginDlg.sbr"
+".\Debug\PhotoSet.sbr"
+".\Debug\ProvinceSet.sbr"
+".\Debug\QueryDlg.sbr"
+".\Debug\UserSet.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11E.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Contacts.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
